@@ -1,0 +1,15 @@
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.csproj.AssemblyReference.cache
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.AssemblyInfoInputs.cache
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.AssemblyInfo.cs
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.csproj.CoreCompileInputs.cache
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\bin\Debug\net6.0\GITSSimulation.exe
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\bin\Debug\net6.0\GITSSimulation.deps.json
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\bin\Debug\net6.0\GITSSimulation.runtimeconfig.json
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\bin\Debug\net6.0\GITSSimulation.dll
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\bin\Debug\net6.0\GITSSimulation.pdb
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.dll
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\refint\GITSSimulation.dll
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.pdb
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\GITSSimulation.genruntimeconfig.cache
+C:\Users\logan\Documens\Ghost\Simulation\GITSSimulation\GITSSimulation\obj\Debug\net6.0\ref\GITSSimulation.dll
