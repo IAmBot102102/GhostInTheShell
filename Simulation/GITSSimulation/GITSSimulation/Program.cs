@@ -5,9 +5,16 @@ namespace GITSSimulation
 {
     class Program 
     {
-        public static void Main(string[] args) 
+        public static void QuickCommand() { }
+        public static void RepeatedStudy() { }
+        public static void VariableSetMenu() { }
+        public static void PlayerVsPlayerMenu() 
         {
-            Console.WriteLine("This is a test.");
+
         }
+        public static void ComputerVsPlayerMenu() { }
+        public static void ComputerVsComputerMenu() { }
+
+        public static void Main(string[] args) { }
     }
 }
