@@ -12,13 +12,23 @@ namespace GITSSimulation
         public int targetID;
         public int sourceID;
         public int ETA;
+        public int ownership;
 
-        public Bomb(int ID, int targetID, int sourceID, int ETA)
+        public Bomb(int ownership, int ID, int targetID, int sourceID, int ETA)
         {
             this.ID = ID;
             this.targetID = targetID;
             this.sourceID = sourceID;
             this.ETA = ETA;
+            this.ownership = ownership;
+        }
+        public Bomb(Move m, int ID, int ETA) 
+        {
+            this.ID = ID;
+            this.targetID = m.TargetID;
+            this.sourceID = m.SourceID;
+            this.ETA = ETA;
+            this.ownership = m.ownership;
         }
     }
 }

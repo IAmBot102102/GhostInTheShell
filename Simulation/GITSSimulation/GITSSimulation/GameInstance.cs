@@ -14,11 +14,30 @@ namespace GITSSimulation
         List<Bomb> Bombs = new List<Bomb>();
 
         int[][] Metric;
+        int IDMax = 0;
+        
+        public void Update()
+        {
+            for (int i = 0; i < NextMoves.Count; i++) 
+            {
+                Move currentMove = NextMoves[i];
+                if (currentMove.WAIT == 1) { continue; }
+                else if (currentMove.Number == -1)
+                {
+                    Bombs.Add(new Bomb(currentMove, IDMax, FactoryDistance(currentMove.TargetID, currentMove.SourceID)));
+                }
+                else 
+                {
+                    Troops.Add(new Troop());
+                }
+            }
+        }
+        public GameInstance() { }
+        public GameInstance(int[][] Metric, List<Factory> Factories) { }
 
-        public static void Setup(int[][] Metric, List<Factory> Factories) { }
-        public static void Update() { }
-        public static void RandomSetup() { }
-        public static void PlayerTurn(int ownership) { }
-        public static void ComputerTurn(AIPlayer a, int ownership) { }    
+        public void PlayerTurn(int ownership) { }
+        public void ComputerTurn(AIPlayer a, int ownership) { }    
+        public void FileOutputData() { }
+        public int FactoryDistance(int ID1, int ID2) { return Metric[ID1][ID2];  }
     }
 }

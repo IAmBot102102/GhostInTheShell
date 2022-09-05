@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace GITSSimulation
 {
-    internal class AIPlayer
+    abstract class AIPlayer
     {
-        public Move Move(GameInstance g) { return new Move(0, 0);  }
+        public int ownership;
+
+        public abstract Move Move(GameInstance g); 
     }
 }
