@@ -8,12 +8,13 @@ namespace GITSSimulation
 {
     internal class Troop
     {
-        public int ID;
-        public int Number;
-        public int targetID;
-        public int sourceID;
-        public int ETA;
-        public int ownership;
+        public int ID = -1;
+        public int Number = -1;
+        public int targetID = -1;
+        public int sourceID = -1;
+        public int ETA = -1;
+        public int ownership = -1;
+        public bool enabled = true;
 
         public Troop(int ownership, int ID, int Number, int targetID, int sourceID, int ETA)
         {
@@ -33,5 +34,6 @@ namespace GITSSimulation
             this.Number = m.Number;
             this.ownership = m.ownership;
         }
+        public Troop() { }
     }
 }
